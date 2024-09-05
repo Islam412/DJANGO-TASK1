@@ -138,9 +138,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # JAZZMIN settings
 JAZZMIN_SETTINGS = {
-    'site_header': "Dgango Task",
+    'site_header': "Django Task",
     'site_brand': "Connecting people together...",
-    'site_logo': "assets/images/logo.png",
+    'site_logo': "assets/img/photo.png",
     'copyright':  "All Right Reserved 2024",
     "welcome_sign": "Welcome to  Task Django Admin, Login Now.",
     "topmenu_links": [
