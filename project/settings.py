@@ -138,7 +138,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # JAZZMIN settings
 JAZZMIN_SETTINGS = {
-    'site_header': "Marcato store",
+    'site_header': "Dgango Task",
     'site_brand': "Connecting people together...",
     'site_logo': "assets/images/logo.png",
     'copyright':  "All Right Reserved 2024",
