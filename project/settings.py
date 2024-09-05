@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     # Custom Django Admin
-    'jazzmin'
+    'jazzmin',
     
     'django.contrib.admin',
     'django.contrib.auth',
@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # Custom apps
+    'task',
 ]
 
 MIDDLEWARE = [
@@ -132,17 +135,13 @@ JAZZMIN_SETTINGS = {
     'site_brand': "Connecting people together...",
     'site_logo': "assets/images/logo.png",
     'copyright':  "All Right Reserved 2024",
-    "welcome_sign": "Welcome to Marcato store Admin, Login Now.",
+    "welcome_sign": "Welcome to  Task Django Admin, Login Now.",
     "topmenu_links": [
         
     ],
 
     "order_with_respect_to": [
-        "userauths",
-        "addon",
-        "orders",
-        "products",
-        "settings",
+        "task",
     ],
     
     "icons": {
